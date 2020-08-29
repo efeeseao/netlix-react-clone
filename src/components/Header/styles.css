@@ -17,19 +17,60 @@ header.black {
   background: #141414;
 }
 
-.header--logo {
+header nav ul {
+  margin-right: 400px;
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.logo {
   height: 25px;
 }
 
-.header--logo img {
+.logo img {
   height: 100%;
 }
 
-.header--user {
+.userIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 35px;
 }
 
-.header--user img {
+.userIcon img {
   height: 100%;
   border-radius: 3px;
+}
+
+.userIcon .search {
+  margin-right: 30px;
+}
+
+.userIcon .child,
+.gift,
+.notification {
+  margin-right: 20px;
+}
+
+.userIcon .child {
+  text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  header nav ul {
+    display: none;
+  }
+
+  .userIcon .child,
+  .search,
+  .notification,
+  .gift {
+    display: none;
+  }
 }
