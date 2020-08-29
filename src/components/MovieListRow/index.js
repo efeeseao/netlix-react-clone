@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './styles.css';
-import { NavigateBefore } from 'styled-icons/material';
-import { NavigateNext } from 'styled-icons/material';
+import { MdNavigateBefore, MdNavigateNext } from 'react-icons/md';
 
 export default ({title, items}) =>{
 
@@ -28,10 +27,10 @@ export default ({title, items}) =>{
       <div className='movieRow'>
         <h2>{title}</h2>
         <div className='movieRowLeft' onClick={handleLeftArrow}>
-          <NavigateBefore className='navigation' />
+          <MdNavigateBefore className='navigation' />
         </div>
         <div className='movieRowRight' onClick={handleRightArrow}>
-          <NavigateNext className='navigation' />
+          <MdNavigateNext className='navigation' />
         </div>
 
         <div className='movieRowListarea'>
