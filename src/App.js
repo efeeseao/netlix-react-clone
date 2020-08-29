@@ -48,24 +48,19 @@ export default () =>{
 
   return(
     <div className="page">
-
       <Header black={blackHeader}/>
 
-      {featuredData && 
-        <FeaturedMovie item ={featuredData}/>
-      }
+      { featuredData && <FeaturedMovie item ={featuredData}/> }
 
       <section className="lists">
         {movieList.map((item, key) =>(
           <MovieRow key={key} title={item.title} items={item.items} />
-        ))
-
-        }
+        ))}
       </section>
+
       <Footer />
-    {movieList.length <= 0 &&
-      <Loading />
-    }
+
+    { movieList.length <= 0 && <Loading /> }
     </div>
   )
 }
