@@ -31,7 +31,15 @@
   margin-top: 15px;
 }
 
+.featured--points,
+.featured--year,
+.featured--seasons {
+  display: inline-block;
+  margin-right: 15px;
+}
+
 .featured--points {
+  display: inline-block;
   color: #46d369
 }
 
