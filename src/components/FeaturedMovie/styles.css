@@ -2,13 +2,13 @@
   height: 100vh;
 }
 
-.featured--vertical {
+.featuredVertical {
   width: inherit;
   height: inherit;
   background: linear-gradient(to top, #111 10%, transparent);
 }
 
-.featured--horizontal {
+.featuredHorizontal {
   width: inherit;
   height: inherit;
   background: linear-gradient(to right, #111 30%, transparent 70%);
@@ -20,42 +20,35 @@
   padding-top: 70px;
 }
 
-.featured--name {
+.featuredName {
   font-size: 60px;
   font-weight: bold;
 }
 
-.featured--info {
+.featuredInfo {
   font-size: 18px;
   font-weight: bold;
   margin-top: 15px;
 }
 
-.featured--points,
-.featured--year,
-.featured--seasons {
+.featuredSeasons {
   display: inline-block;
   margin-right: 15px;
 }
 
-.featured--points {
-  display: inline-block;
-  color: #46d369
-}
-
-.featured--description {
+.featuredDescription {
   margin-top: 15px;
   font-size: 20px;
   color: #999;
   max-width: 40%;
 }
 
-.featured--buttons {
+.featuredButtons {
   margin-top: 15px;
 }
 
-.featured--mylistbutton,
-.featured--watchbutton {
+.featuredMoreInfo,
+.featuredWatchbutton {
   display: inline-block;
   font-size: 20px;
   font-weight: bold;
@@ -67,22 +60,22 @@
   transition: all ease 0.2s;
 }
 
-.featured--mylistbutton:hover,
-.featured--watchbutton:hover {
+.featuredMoreInfo:hover,
+.featuredWatchbutton:hover {
   opacity: 0.7;
 }
 
-.featured--watchbutton {
+.featuredWatchbutton {
   background-color: #fff;
   color: #000;
 }
 
-.featured--mylistbutton {
+.featuredMoreInfo {
   background-color: #333;
   color: #fff;
 }
 
-.featured--genres {
+.featuredGenres {
   margin-top: 15px;
   font-size: 18px;
   color: #999;
@@ -93,26 +86,26 @@
     height: 90vh;
   }
 
-  .featured--name {
+  .featuredName {
     font-size: 40px;
   }
 
-  .featured--info {
+  .featuredInfo {
     font-size: 16px;
   }
 
-  .featured--description {
+  .featuredDescription {
     font-size: 14px;
     max-width: 100%;
     margin-right: 30px;
   }
 
-  .featured--mylistbutton,
-  .featured--watchbutton {
+  .featuredMoreInfo,
+  .featuredWatchbutton {
     font-size: 10px;
   }
 
-  .featured--genres {
+  .featuredGenres {
     font-size: 14px;
   }
 }
