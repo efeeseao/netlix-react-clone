@@ -6,34 +6,34 @@
   margin: 0px 0px 0px 30px;
 }
 
-.movieRow--listarea {
+.movieRowListarea {
   overflow-x: hidden;
   padding-left: 30px;
 }
 
-.movieRow--list {
+.movieRowList {
   transition: all ease 0.2s;
 }
 
-.movieRow--item {
+.movieRowItem {
   display: inline-block;
   width: 150px;
   cursor: pointer;
 }
 
-.movieRow--item img {
+.movieRowItem img {
   width: 100%;
   transform: scale(0.9);
   transition: all ease 0.2s;
 }
 
 
-.movieRow--item img:hover {
+.movieRowItem img:hover {
   transform: scale(1);
 }
 
-.movieRow-left,
-.movieRow-right {
+.movieRowLeft,
+.movieRowRight {
   position: absolute;
   width: 40px;
   height: 225px;
@@ -48,24 +48,27 @@
   transition: all ease 0.2s;
 }
 
-.movieRow-left {
+.movieRowLeft {
   left: 0;
 }
 
-.movieRow-right {
+.movieRowRight {
   right: 0;
 }
 
-.movieRow:hover .movieRow-left,
-.movieRow:hover .movieRow-right {
+.movieRow:hover .movieRowLeft,
+.movieRow:hover .movieRowRight {
   opacity: 1;
 }
 
+.navigation {
+  font-size: 50px;
+}
 
 @media (max-width: 760px) {
 
-  .movieRow-left,
-  .movieRow-right {
+  .movieRowLeft,
+  .movieRowRight {
     opacity: 1;
   }
 }
