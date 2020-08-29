@@ -3,6 +3,7 @@ import api from './server/api';
 
 import MovieRow from './components/MovieListRow';
 import FeaturedMovie from './components/FeaturedMovie';
+import Loading from './components/Loading';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -63,9 +64,7 @@ export default () =>{
       </section>
       <Footer />
     {movieList.length <= 0 &&
-      <div className="loading">
-        <img src="https://cdn.lowgif.com/small/0534e2a412eeb281-the-counterintuitive-tech-behind-netflix-s-worldwide.gif" alt="loading"></img>
-      </div>
+      <Loading />
     }
     </div>
   )
