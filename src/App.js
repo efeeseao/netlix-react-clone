@@ -1,9 +1,12 @@
 import React, {useEffect, useState} from 'react';
-import './App.css';
 import api from './server/api';
+
 import MovieRow from './components/MovieListRow';
 import FeaturedMovie from './components/FeaturedMovie';
 import Header from './components/Header';
+import Footer from './components/Footer';
+
+import './App.css';
 
 export default () =>{
 
@@ -58,7 +61,7 @@ export default () =>{
 
         }
       </section>
-
+      <Footer />
     {movieList.length <= 0 &&
       <div className="loading">
         <img src="https://cdn.lowgif.com/small/0534e2a412eeb281-the-counterintuitive-tech-behind-netflix-s-worldwide.gif" alt="loading"></img>
