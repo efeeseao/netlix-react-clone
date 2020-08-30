@@ -2,3 +2,20 @@ footer {
   margin: 50px 0;
   text-align: center;
 }
+
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p a {
+  text-decoration: none;
+  margin-left: 6px;
+}
+
+footer .heartIcon {
+  color: #F00;
+  margin-right: 6px;
+  margin-left: 6px;
+}

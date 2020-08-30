@@ -1,68 +1,128 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://www.twitter.com/codder404/">
+    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https://github.com/codder404/netlix-react-clone">
+  </a>
+    
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/codder404/netlix-react-clone/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/codder404/README-ecoleta?style=social">
+  </a>
+  
+ 
+</p>
+<h1 align="center">
+    <img alt="NetflixClone" title="#NetflixCçone" src="./src/assets/netflix.jpg" />
+</h1>
 
-## Available Scripts
+<h1 align="center">
+    <img alt="NetflixClone" title="#NetflixCçone" src="./src/assets/mobile.png" />
+</h1>
 
-In the project directory, you can run:
+<h4 align="center"> 
+  Netflix Clone
+</h4>
 
-### `yarn start`
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> • 
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autor">Autor</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 Sobre o projeto
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+🚀 Netflix - é uma provedora global de filmes e séries de televisão via streaming sediada em Los Gatos, Califórnia, e que atualmente possui mais de 160 milhões de assinantes.
 
-### `yarn test`
+Projeto desenvolvido durante a **O FINAL DE SEMANA**
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+## 🚀 Como executar o projeto
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Este projeto é divido em uma parte:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. Frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pré-requisitos
 
-### `yarn eject`
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### 🧭 Rodando a aplicação
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Clone este repositório
+$ git clone git@github.com:codder404/netflix-react-clone
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd netflix-react-clone
 
-## Learn More
+# Instale as dependências
+$ yarn install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
-### Code Splitting
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+---
 
-### Analyzing the Bundle Size
+## 🛠 Tecnologias
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### Making a Progressive Web App
+#### **Website** ([React](https://reactjs.org/))
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- **[React Icons](https://react-icons.github.io/react-icons/)**
+- **[Fetch](https://github.com/github/fetch)**
+- **[TMDB](https://www.themoviedb.org/?language=pt)**
 
-### Advanced Configuration
+> Veja o arquivo [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/web/package.json)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+#### [](https://github.com/tgmarinho/Ecoleta#utilit%C3%A1rios)**Utilitários**
 
-### Deployment
+- Protótipo: **[Netflix](https://www.netflix.com/)**
+- API: **[API de Séries e Filmes](https://www.themoviedb.org/?language=pt)**
+- Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
+- Markdown: **[StackEdit](https://stackedit.io/)**, **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
+- Teste de API: **[Insomnia](https://insomnia.rest/)**
+- Ícones: **[React Icons](https://react-icons.github.io/react-icons/)**, **[Font Awesome](https://fontawesome.com/)**
+- Fontes: **[Roboto](https://fonts.google.com/specimen/Roboto)**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+---
 
-### `yarn build` fails to minify
+## 💪 Como contribuir para o projeto
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+   > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+
+---
+
+## 🦸 Autor
+
+<a href="https://www.linkedin.com/in/fernandosantosc/">
+ <img style="border-radius: 50%;" src="https://github.com/codder404.png" width="100px;" alt=""/>
+ <br />
+ <sub><b>Fernando dos Santos</b></sub></a> <a href="https://www.linkedin.com/in/fernandosantosc/" title="Fernando">🚀</a>
+ <br />
+
+[![Twitter Badge](https://img.shields.io/badge/-@codder404-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/codder404)](https://twitter.com/codder404) [![Linkedin Badge](https://img.shields.io/badge/-Fernando-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fernandosantosc/)](https://www.linkedin.com/in/fernandosantosc/)
+[![Gmail Badge](https://img.shields.io/badge/-nando4803@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nando4803@gmail.com)](mailto:nando4803@gmail.com)
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito com ❤️ por Fernando dos Santos 👋🏽 [Entre em contato!](https://www.linkedin.com/in/fernandosantosc/)
+
+---
